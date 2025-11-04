@@ -1,6 +1,6 @@
 function Run-ExeInMemory {
     param (
-                    [Parameter(ValueFromRemainingArguments = $true)]
+		    [Parameter(ValueFromRemainingArguments = $true)]
         [string[]]$Arguments = @()  # Optional arguments for the executable
     )
 
